@@ -7,7 +7,9 @@ In whatever editor you are using add a hook which calls the `record.py` command 
 It will write the messages with timestamps to the log file as a json array.
 
 ## Playback
-Playback with `python replayer /path/to/log.json`. Assuming you have tidal and ghc installed in a standard way and you have SuperDirt running it should start playing back the recorded log.
+Playback with `python replayer.py /path/to/log.json`. Assuming you have tidal and ghc installed in a standard way and you have SuperDirt running it should start playing back the recorded log.
+
+Try it out with `python replayer.py example_recording.json`
 
 ## Stability
 This is about ten minutes worth of prototype and has been tested on exactly one computer (running linux) so don't expect it to work too well.
